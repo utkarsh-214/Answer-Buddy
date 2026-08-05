@@ -1,0 +1,17 @@
+# Core PDF parsing
+PyMuPDF>=1.24.5
+
+# Embeddings (local, no API cost)
+sentence-transformers==3.1.1
+
+# Qdrant vector database client
+qdrant-client==1.11.1
+
+# OpenRouter via OpenAI-compatible SDK
+openai==1.51.0
+
+# Environment variable management
+python-dotenv==1.0.1
+
+# Progress bars for ingestion
+tqdm==4.66.5
